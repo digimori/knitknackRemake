@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto+Condensed:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #faebd7;
+}
+
+a:visited {
+    color: #faebd7;
+}
+
+a:hover {
+    color: #faebd7;
+}
+
+/* Header general */
+#header {
+  border-bottom: 1px solid #454545;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+      background-image: url('../src/assets/images/nynne-schroder-nMdC42MrwN8-unsplash.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+  
+  .stickyheader {
+          overflow: hidden;
+          background-color: #785964;
+  }
+  
+  .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+  }
+
+/* Cover text Header */
+.cover-text {
+  margin-top: 20px;
+  font-size: 46px;
+letter-spacing: 4px;
+padding: 38px 0;
+border-radius: 15px;
+background-color: rgba(120, 89, 100, 0.7);
+}
+
+.cover-text a {
+  color: #faebd7;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.cover-text a:active {
+      color: #faebd7;
+}
+
+.cover-text a:hover {
+  color: #faebd7;
+  opacity: 1;
+}
+
+/* Social Links */
+
+.social {
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.social-links {
+  padding-bottom: 15px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.social-links li a i {
+  box-shadow: none;
+  width: 35px;
+  height: 35px;
+  padding-top: 14px;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 7px;   
+position: relative;
+display: block;
+  color: #faebd7;
+  background-color: #785964;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  color: #785964;
+  background-color: #faebd7;
+  text-decoration: none;
+}
+
+.social-links a {
+  text-decoration: none;
+}
